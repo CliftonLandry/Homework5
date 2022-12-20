@@ -1,0 +1,98 @@
+/*
+    File: styles.css
+GUI Assignment: Creating scrabble board
+Clifton Landry, UMass Lowell Computer Science, clifton_landry@student.uml.edu
+What to submit: one zipped folder containing all of the neccessary files to run the project alongside a readme file with a link to my github page
+Copyright(c) 2022 by Landry.All rights reserved.May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by CL on December 15, 2022 at 10:30 AM
+*/
+
+html {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-size: cover;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    min-height: 100%;
+    height:100%;
+    width: 100%;    
+}
+
+#rackDiv {
+    margin-top:70px;
+    margin-left:auto;
+    margin-right:auto;
+    width: 50%;
+    height: 200px;
+    background-image: url("../graphics_data/scrabble-tile-holder-406774_640.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 35px 0 0 55px;
+}
+
+.blankBoard {
+    background-image: url("../graphics_data/blank_space.png");
+}
+
+
+.doubleBoard {
+    background-image: url("../graphics_data/double_letter.png"); 
+}
+
+/* individual board pieces */
+.board {
+    height: 100px;
+    width: 100px;
+    background-size: contain;
+    float: left;
+    margin-right:20px;
+}
+
+/* div that contains all of the board pieces */
+#gameBoard {
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    width:55%;
+    position:center;
+    display:block;
+}
+
+.tile{
+    height:90px;
+    width:90px;
+    float:left;
+    margin-right: 10px;
+}
+
+.buttonB {
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+/* Div containing the buttons */
+#buttons {
+    margin-top: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* this is the error text */
+h3{
+    color:red;
+}
