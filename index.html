@@ -1,0 +1,48 @@
+<!--
+File: index.html
+GUI Assignment: Creating scrabble board
+Clifton Landry, UMass Lowell Computer Science, clifton_landry@student.uml.edu
+What to submit: one zipped folder containing all of the neccessary files to run the project alongside a readme file with a link to my github page
+Copyright (c) 2022 by Landry. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by CL on December 15, 2022 at 10:30 AM
+-->
+<!DOCTYPE html>
+    <html>
+    <head>
+        <title>Scrabble</title>
+        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="stylesheet" href="js/jquery-ui-1.13.2.custom/jquery-ui.min.css" />
+    </head>
+    <body>
+
+       
+        <br />
+        
+        <div id="gameBoard"> 
+            <div id="board1" class="blankBoard board"></div>
+            <div id="board2" class="doubleBoard board"></div>
+            <div id="board3" class="blankBoard board"></div>
+            <div id="board4" class="blankBoard board"></div>
+            <div id="board5" class="blankBoard board"></div>
+            <div id="board6" class="doubleBoard board"></div>
+            <div id="board7" class="blankBoard board"></div>
+        </div>
+       
+        <div id="buttons">
+            <button type="button" id="enterWord" class="buttonB">Enter word</button>
+            <button type="button" id="restart" class="buttonB">Restart</button>
+            <br />
+            <h2>Score: <span id="score">0</span></h2>
+            <h3><span id="errorText"></span></h3>
+        </div>
+
+        <div id="rackDiv"></div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="js/jquery-validation-1.19.5/dist/jquery.validate.min.js" type="text/javascript"></script>
+        <script src="js/jquery-ui-1.13.2.custom/jquery-ui.min.js" type="text/javascript"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
+
